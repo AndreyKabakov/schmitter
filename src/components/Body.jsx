@@ -1,13 +1,13 @@
-import Sidebar from "./Sidebar.jsx";
 import Content from "./Content.jsx";
+import Sidebar from "./Sidebar.jsx";
 
-const Body = ({user,stats}) => {
+const Body = () => {
     return (
         <div className={'body'}>
-          <Sidebar user={user} stats={stats}/>
+            <Sidebar/>
             <Content/>
         </div>
-    );
-};
+    )
+}
 
 export default Body;

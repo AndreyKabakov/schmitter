@@ -1,11 +1,11 @@
 import Stats from "./Stats.jsx";
 
-const Sidebar = ({user, stats}) => {
+const Sidebar = () => {
     return (
-        <div className="sidebar">
-     <Stats user={user} stats={stats}/>
+        <div className={'sidebar'}>
+            <Stats/>
         </div>
-    );
-};
+    )
+}
 
 export default Sidebar;
